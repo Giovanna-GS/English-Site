@@ -1,0 +1,17 @@
+//Banco
+
+create database db_clientes;
+use db_clientes;
+
+
+//Tabelas
+
+create table tbl_usuarios(
+id INT(10) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+nomePessoa VARCHAR(30) NOT NULL,
+sobrenomePessoa VARCHAR(70) NOT NULL,
+nomeUsuario VARCHAR(70) NOT NULL,
+email varchar(150) NOT NULL,
+numCelular bigint(11) NOT NULL,
+senha varchar(50) NOT NULL
+);
